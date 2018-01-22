@@ -1,0 +1,34 @@
+{
+    "compileOnSave": true,
+    "typeAcquisition": {
+        "enable": true
+    },
+    "compilerOptions": {
+        "alwaysStrict": true,
+        //"allowJs": true,
+        //"checkJs": true,
+        "declaration": true,
+        "declarationDir": "compiled",
+        "sourceMap": true,
+        //"inlineSourceMap": true,
+        //"inlineSources": true,
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "outDir": "compiled/",
+        "pretty": true,
+        "strict": true,
+        "target": "es2015",
+        //"watch": true
+        "diagnostics": true
+    },
+    "files": [
+        "src/index.ts",
+        "src/cli.ts",
+        "test/test.ts"
+    ]
+}
