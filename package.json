@@ -20,5 +20,14 @@
     "@types/node": "^8.5.9",
     "mocha": "^3.3.0",
     "typescript": "^2.6.2"
-  }
+  },
+  "keywords": [
+    "speedtest",
+    "speed",
+    "network",
+    "test",
+    "fast",
+    "mbps",
+    "kbps"
+  ]
 }
