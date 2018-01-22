@@ -1,9 +1,15 @@
-# A nice, simple speed test
+# A nice, simple speed test (with no dependencies!)
 
 Measures how quickly you can pull files from the fast.com Netflix CDNs.
 
 ## CLI usage
 
+#### To install
+```bash
+$ npm install -g fast-speed-test
+```
+
+#### To use
 ```bash
 $ speed-test
 14581760 bytes/sec
