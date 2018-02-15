@@ -24,6 +24,11 @@ import getSpeed from 'fast-speed-test';
 
 getSpeed()
   .then(speed => console.log(speed + ' bytes per second'));
+
+
+// or to guarantee it returns in ~10 seconds
+getSpeed(10)
+  .then(speed => console.log(speed + ' bytes per second'));
 ```
 
 ## Contributing
