@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import getSpeed from './index';
 
-getSpeed()
+getSpeed(10)
     .then(result => {
         console.log(result + ' bytes/sec');
         console.log(result / (2 ** 7) + ' kbps');
