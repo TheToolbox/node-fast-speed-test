@@ -18,7 +18,7 @@
   "devDependencies": {
     "@types/mocha": "^2.2.46",
     "@types/node": "^8.5.9",
-    "mocha": "^3.3.0",
+    "mocha": "^5.2.0",
     "typescript": "^2.6.2"
   },
   "keywords": [
