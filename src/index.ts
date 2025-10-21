@@ -59,10 +59,11 @@ export default async function getSpeed(timeLimitInSeconds: number = 60): Promise
 
     return new Promise<number>(resolve => {
         let i = 0;
-        const recents = [0, 0, 0, 0, 0];//list of most recent speeds 
+        const recents = [0, 0, 0, 0, 0];//list of most recent speeds
         const interval = 200;//ms
-        setInterval(() => {
+        const intervalId = setInterval(() => {
             if (done || (Date.now() - startTime) > timeLimitInMS) {
+                clearInterval(intervalId);
                 resolve(average(recents));
             } else {
                 i = (i + 1) % recents.length; //loop through recents
